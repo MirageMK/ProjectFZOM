@@ -122,9 +122,13 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AdvancedSearchController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MapsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Dogovor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -211,14 +215,44 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="XML\0List.xml" />
+    <Content Include="XML\10List.xml" />
+    <Content Include="XML\11List.xml" />
+    <Content Include="XML\12List.xml" />
+    <Content Include="XML\13List.xml" />
+    <Content Include="XML\14List.xml" />
+    <Content Include="XML\15List.xml" />
+    <Content Include="XML\16List.xml" />
+    <Content Include="XML\17List.xml" />
+    <Content Include="XML\18List.xml" />
+    <Content Include="XML\19List.xml" />
+    <Content Include="XML\1List.xml" />
+    <Content Include="XML\20List.xml" />
+    <Content Include="XML\21List.xml" />
+    <Content Include="XML\22List.xml" />
+    <Content Include="XML\23List.xml" />
+    <Content Include="XML\2List.xml" />
+    <Content Include="XML\3List.xml" />
+    <Content Include="XML\4List.xml" />
+    <Content Include="XML\5List.xml" />
+    <Content Include="XML\6List.xml" />
+    <Content Include="XML\7List.xml" />
+    <Content Include="XML\8List.xml" />
+    <Content Include="XML\9List.xml" />
+    <Content Include="XML\customers.xml" />
+    <Content Include="XML\FZOM_Apteki.xml" />
+    <Content Include="XML\FZOM_AptekiSort.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\AdvancedSearch\Index.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Maps\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
