@@ -1,32 +1,27 @@
-﻿
-<div id="showAdr" style="display:none">
-<br />
-<label id="adr">
-</label>
-<br />
+﻿<div id="showAdr" style="display: none">
+    <br />
+    <label id="adr">
+    </label>
+    <br />
 </div>
 <table>
-  <tr> 
-    <td style="vertical-align:text-top">
-       <div id='jqxWidgetDejnosti'>
-        </div>
-        </br>
-                <div id='jqxWidget'>
-        </div>
-         </br>
-        <div id="selectionlog"></div>
-  </td>
-  <td>
-  <div id="map-canvas">
-  </div>
-  </td>
-
-
-</tr>
+    <tr>
+        <td style="vertical-align: text-top">
+            <div id='jqxWidgetDejnosti'>
+            </div>
+            </br>
+            <div id='jqxWidget'>
+            </div>
+            </br>
+            <div id="selectionlog">
+            </div>
+        </td>
+        <td>
+            <div id="map-canvas">
+            </div>
+        </td>
+    </tr>
 </table>
-
-
-
 @section scripts{
     <script type="text/javascript">
        
@@ -421,9 +416,7 @@ function ValidateAll() {
     </script>
 }
 <br />
-
-
-<input type="button" value="Парсирај" id="parseBtn" onclick="StartParsing(true)"/>
-<input type="button" value="Комплетирај го парсирањето" id="mergeXMLbtn" onclick="MergeXML()"/>
-<input type="button" value="Испарсирај ги непарсираните" id="reparseBtn" onclick="StartParsing(false)"/>
-<input type="button" value="Валидирај" id="validateBtn" onclick="ValidateAll()"/>
+<input type="button" value="Парсирај" id="parseBtn" onclick="StartParsing(true)" />
+<input type="button" value="Комплетирај го парсирањето" id="mergeXMLbtn" onclick="MergeXML()" />
+<input type="button" value="Испарсирај ги непарсираните" id="reparseBtn" onclick="StartParsing(false)" />
+<input type="button" value="Валидирај" id="validateBtn" onclick="ValidateAll()" />
